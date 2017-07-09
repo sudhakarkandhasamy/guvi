@@ -1,0 +1,114 @@
+class guvi
+{
+public static void main (String[] args)
+{
+String a="sridevi";
+String b="chennai";
+byte c=32;
+float d=5.3f;
+boolean e=true;
+char f='f';
+double g=4828853;
+System.out.println("name"+a+"\n city"+b+"\n age"+c+"\n height"+d+"\n married"+e+"\n sex"+f+"\n population"+g);
+}
+}
+
+
+class guvi
+{
+public static void main (String[] args)
+{
+int a=10,b=10,c,d,e,f,g,h,i,j,k,l,m,n;
+c= a+b;
+d= a-b;
+e= a*b;
+f= b/a;
+g= b%a;
+h= b++;
+i= a&b;
+j= a|b;
+k= a^b;
+l= ~a;
+m= a<<2;
+n= a>>2;
+
+System.out.println("\n"+c+"\n"+d+"\n"+e+"\n"+f+"\n"+g+"\n"+h+"\n"+i+"\n"+j+"\n"+k+"\n"+l+"\n"+m+"\n"+n);
+
+
+class guvi
+{
+public static void main (String[] args)
+{
+int d;
+Scanner s = new Scanner(System.in);
+System.out.println("enter the days");
+d=s.nextInt();
+if (d>50)
+System.out.println("\nBox office hit");
+else 
+System.out.println("\n flop");
+
+
+class guvi
+{
+public static void main (String[] args)
+{
+int d;
+Scanner s = new Scanner(System.in);
+System.out.println("enter the amount");
+d=s.nextInt();
+if (d>=20000)
+System.out.println("\nFree Trolley Suitcase");
+else if (d>=10000)
+System.out.println("\nFree Travel Bag");
+else if (d>=5000)
+System.out.println("\nFree BackPck");
+else 
+System.out.println("\nCollect money even for cover we give");
+
+
+
+class guvi
+{
+public static void main (String[] args)
+{
+	int d;
+Scanner s = new Scanner(System.in);
+System.out.println("enter the day (0-6):");
+d=s.nextInt();
+switch(d)
+{
+case 0:
+System.out.println("Free Personal Pizza on purchase of medium Pizza");
+break;
+case 1:
+System.out.println("\nRs.101 OFF on a bill of Rs.400 and above");
+break;
+case 2:
+System.out.println("\nFree Plain Garlic Bread on another medium pizza");
+break;
+case 3:
+System.out.println("\nBuy 1 Get 1 Free on any medium pizza");
+break;
+case 4:
+System.out.println("\nBuy any medium pizza and get 50% off on another medium pizza");
+break;
+case 5:
+System.out.println("\nTastiest pizza 20% off on bill of Rs.399 or above");
+break;
+case 6:
+System.out.println("\nGet Together Offer Free Garlic Bread and Dip on a min bill of Rs.350");
+break;
+}
+
+
+class guvi
+{
+public static void main (String[] args)
+{
+for (int i=1990;i<=2020;i++)
+{
+if((i%4)==0)
+{System.out.println("\n"+i);}
+}
+ 
